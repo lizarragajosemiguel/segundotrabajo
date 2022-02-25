@@ -1,3 +1,14 @@
+//Punto 1
+let usuario = prompt("Introduzca nombre de Usuario");
+let contraseña = prompt ("Introduzca contraseña");
+
+if (usuario == "administrador" && contraseña == "1234"){
+    alert ("¡Bienvenido! ")
+} 
+else {
+    alert ("Usuario o Contraseña Incorrectos")}
+
+
 //Punto 2
 let numeroUno = prompt ("Ingrese un numero");
 let numeroDos = prompt ("Ingrese otro numero");
@@ -10,7 +21,7 @@ console.log ("El numero menor que has ingresado es " + menor);
 
 
 //Punto 3
-let saludo = "Hola mundo!"
+let saludo = "¡Hola mundo! 🌍"
 
 function bienvenida (){
     console.log (saludo);

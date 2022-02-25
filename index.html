@@ -13,18 +13,35 @@
         color: rgb(238, 231, 231);
         background-image: url(./multimedia/estructura-abstracta-3d-gris-oscuro-3593.webp);
     }
-    h1{
-        text-align: center;
-        margin: 2%;
+
+    body, h1{
+        margin: 5%;
         font size: 20px;
+        text-align: center;
     }
+
+    .div1{
+        display: flex;
+        margin-top: 100px;
+    }
+
+    .div1, .btn-secondary{
+        justify-content: center;
+    }
+
+    .btn-secondary{
+        color: rgb(0, 0, 0);
+    }
+
 </style>
     <title>Practica segundo trabajo</title>
 </head>
 <body>
     <h1>Segundo trabajo práctico</h1>
+
+    <div class="div1">
     <button onclick="bienvenida()", type="button" class="btn btn-secondary"><h3>Mostrar mensaje </h3></button>
-    
+    </div>
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
